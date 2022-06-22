@@ -1,6 +1,5 @@
 set nocompatible
 set number
-set cursorline
 set scrolloff=5
 set incsearch 
 set showcmd
@@ -11,3 +10,5 @@ syntax on
 filetype on
 filetype plugin on
 filetype indent on
+autocmd FileType yaml setlocal ai ts=2 sw=2 et
+autocmd FileType lua setlocal ai ts=2 sw=2 et
