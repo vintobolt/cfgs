@@ -3,4 +3,7 @@ if status is-interactive
 end
 set -gx PATH "$HOME/.cargo/bin" $PATH
 set -gx PATH "/opt/homebrew/bin" $PATH
+# set -x $GOPATH /home/$USER/go
+# set -x PATH $PATH /usr/local/go/bin $GOPATH/bin
 alias ls="exa"
+alias cat="bat"
